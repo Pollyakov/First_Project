@@ -1,3 +1,4 @@
+/* global */
 body{font-family: 'Arial (Hebrew)', Arial;
       padding-bottom: 38px; background: #fff
      }      
@@ -11,6 +12,7 @@ body{font-family: 'Arial (Hebrew)', Arial;
              margin: 0 auto;
              padding-bottom: 30px;
              height: 754px; }
+
 
 #header {
         font-family: Arial, Helvetica, sans-serif;
@@ -27,6 +29,7 @@ body{font-family: 'Arial (Hebrew)', Arial;
 
 }
 
+
 #Footer {
         width: 933.6ox;
         height: 38px;
@@ -38,3 +41,15 @@ body{font-family: 'Arial (Hebrew)', Arial;
 
 h1 { font-size: 15px; font-weight: bold; border-bottom: 1px solid #cbcbcb; margin-bottom: 12px; padding-bottom: 4px; }
 h2 { font-size: 12px; font-weight: bold; color: #005ca0; }
+
+
+/* Header */
+#header { width: 100%; height: 105px; position: relative; z-index:100; }
+
+
+#header a.logo { display: block; width: 142px; height: 93px; position: absolute; bottom: -20px; right: -8px; background: url(images/paz_logo.png) }
+#header #searchBox { position: absolute; top: 20px; left: 10px; width: 152px; }
+#header #searchBox .input { float: right; width: 132px; height: 19px; background: url(images/search_input.png) no-repeat 0 0; }
+#header #searchBox .input input[type="text"] { position: relative; top: 2px; right: 4px; width: 126px;  border: 0 none; }
+#header #searchBox a { display: inline-block; float: left; width: 19px; height: 19px; background: url(images/search_button.png) no-repeat 0 0; }
+#header #searchBox a:hover { text-decoration: none; }
