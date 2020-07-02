@@ -4,13 +4,13 @@ body{font-family: 'Arial (Hebrew)', Arial;
 #form{ 
         width: 916.8;
         height: 754;
-           
+    
     }
-#container{
-        width: 900px;
-        height: 754px;
-        background-color: whitesmoke ;
-        }
+
+#container { width: 900px; 
+             margin: 0 auto;
+             padding-bottom: 30px;
+             height: 754px; }
 
 #header {
         font-family: Arial, Helvetica, sans-serif;
