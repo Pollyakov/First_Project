@@ -1,1 +1,40 @@
-h1 {color: aqua ;}
+body{font-family: 'Arial (Hebrew)', Arial;
+      padding-bottom: 38px; background: #fff
+     }      
+#form{ 
+        width: 916.8;
+        height: 754;
+           
+    }
+#container{
+        width: 900px;
+        height: 754px;
+        background-color: whitesmoke ;
+        }
+
+#header {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        width: 900px;
+        height: 105px;
+        background-color: slategray;
+        }  
+
+#main {
+        width: 900px;
+        height: 589px;
+        background-color: snow;
+
+}
+
+#Footer {
+        width: 933.6ox;
+        height: 38px;
+        background-color: rgb(152, 174, 196);
+        position:fixed;
+        bottom:0px;
+}
+
+
+h1 { font-size: 15px; font-weight: bold; border-bottom: 1px solid #cbcbcb; margin-bottom: 12px; padding-bottom: 4px; }
+h2 { font-size: 12px; font-weight: bold; color: #005ca0; }
