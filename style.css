@@ -12,11 +12,11 @@ body{font-family: 'Arial (Hebrew)', Arial;
 #begin {min-height: 65px; display: block; background:none; opacity: 0;}     
 #form{ 
         width: 100%;
-        height: 754;
+    
     
     }
 
-#container { width: 900px; 
+#container { width: 1000px; 
              margin: 0 auto;
              padding-bottom: 30px;
             
@@ -29,12 +29,12 @@ body{font-family: 'Arial (Hebrew)', Arial;
         width: 100%;
         height: 105px;
         background-color: slategray;
+        background-image: url(images/header_bg.png);
         }  
 
 #main {
-        width: 70%;
-        height: 589px;
-        background-color: snow;
+        width: 100%;
+     
 
 }
 
