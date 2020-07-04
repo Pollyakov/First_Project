@@ -5,9 +5,11 @@ body{font-family: 'Arial (Hebrew)', Arial;
        text-align: right;
        direction: rtl;
        box-sizing: border-box;
+     }     
+     
+     
 
-
-     }      
+#begin {min-height: 65px; display: block; background:none; opacity: 0;}     
 #form{ 
         width: 100%;
         height: 754;
