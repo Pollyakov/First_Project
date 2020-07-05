@@ -5,14 +5,16 @@ body{font-family: 'Arial (Hebrew)', Arial;
        text-align: right;
        direction: rtl;
        box-sizing: border-box;
+       margin: 0px;
      }     
      
      
 
-#begin {min-height: 65px; display: block; background:none; opacity: 0;}     
+/* #begin {min-height: 65px; display: block; background-image: none;}      */
 #form{ 
         width: 100%;
-    
+        height: 754px;
+        padding: 0,0,30px;   
     
     }
 
@@ -55,7 +57,7 @@ h2 { font-size: 12px; font-weight: bold; color: #005ca0; }
 #header { width: 100%; height: 105px; position: relative; z-index:100; }
 
 
-#header a.logo { display: block; width: 142px; height: 93px; position: absolute; bottom: -20px; right: -8px; 
+#header a.logo { display: block; width: 142px; height: 93px; position: absolute; bottom: -20px; right: 0px; 
                 background: url(images/paz_logo.png) ;}
 #header #searchBox { position: absolute; top: 20px; left: 10px; width: 152px; }
 #header #searchBox .input { float: right; width: 132px; height: 19px; background: url(images/search_input.png)  }
@@ -64,8 +66,8 @@ h2 { font-size: 12px; font-weight: bold; color: #005ca0; }
 #header #searchBox a:hover { text-decoration: none; }
 
 /* Main menu */
-#header>nav>ul{padding: 0mm; margin: 0;}
-#header #mainMenu { height: 33px; position: relative; top: 72px; margin: 0 0 0 0;}
+#header>nav>ul{padding: 0mm; margin-right: 220px;}
+#header #mainMenu { height: 33px; position: relative; top: 72px; margin: 0 150px 0 0;}
 #header #mainMenu li { height: 100%; display: inline-block; }
 #header #mainMenu li.sep { width: 4px; height: 21px; background: url(images/menu_sep.png) no-repeat 0 0px; margin: 0 16px; }
 #header #mainMenu li a.home { width: 17px; background: url(images/menu_home.png) no-repeat 0 top;  }
@@ -86,4 +88,7 @@ h2 { font-size: 12px; font-weight: bold; color: #005ca0; }
 
 
 
-.tab{justify-content: space-between;}
+/* Tabs */
+
+.tab {width:293px;}
+div .tabs_container {justify-content: space-between; margin-top: 20px;}
