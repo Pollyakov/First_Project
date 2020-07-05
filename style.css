@@ -90,5 +90,12 @@ h2 { font-size: 12px; font-weight: bold; color: #005ca0; }
 
 /* Tabs */
 
-.tab {width:293px;}
-div .tabs_container {justify-content: space-between; margin-top: 20px;}
+
+.tabs_container {display: flex; justify-content: space-between; margin-top: 20px;}
+
+
+
+
+.tabs_container.tab {width:293px; position: relative;
+                 background-repeat: no-repeat;
+                 background-size: cover;}
