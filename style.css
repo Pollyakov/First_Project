@@ -165,24 +165,3 @@ a.logo { display: block; width: 142px; height: 93px; position: absolute; bottom:
 #header #searchBox a { display: inline-block; float: left; width: 19px; height: 19px; background: url(images/search_button.png) no-repeat 0 0; }
 #header #searchBox a:hover { text-decoration: none; }
 
-/* Main menu */
-#nav>ul{padding: 0mm; margin-right: 220px;}
-#mainMenu { height: 33px; position: relative; margin: 0 150px 0 0;}
-#mainMenu li { height: 100%; display: inline-block; }
-#mainMenu li.sep { width: 4px; height: 21px; background: url(images/menu_sep.png) no-repeat 0 0px; margin: 0 16px; }
-#mainMenu li a.home { width: 17px; background: url(images/menu_home.png) no-repeat 0 top;  }
-#mainMenu li a.home:hover, #header #mainMenu li a.home.selectednode { background-position: -17px top;  }
-#mainMenu li a { display: inline-block; color: #fff; font-size: 15px; font-weight: bold; height: 100%; text-decoration-line: none; }
-#mainMenu li a:hover, #header #mainMenu li a.selectednode { color: #005ca0; }
-#mainMenu li ul { position:absolute; z-index: 200; top: 33px; right: 0; display: none; background: #909090 url(images/menu_dropdown_bg.png) repeat-x 0 0; }
-#mainMenu li:hover ul { display: block; }
-#mainMenu li ul li { float: none; padding: 0 5px; }
-#mainMenu li ul li { width: 220px; overflow: hidden; }
-#mainMenu li ul li:hover { background-color: #bcbcbc; display: block; }
-#mainMenu li ul li a { display: block; width: 100%; height: 100%; padding: 5px 0; white-space: nowrap; }
-#mainMenu li ul li a:hover { color: #005ca0; width: 100%; background: url(images/pixel.jpg); }
-#mainMenu li ul li a span { display: block; width: 100%;   }
-#mainMenu li ul li.sep { width: 100%; *display: inline; zoom: 1; padding: 0; margin: 0; height: 1px; background: url(images/menu_dropdown_sep.png) repeat-x 0 0; }
-#header #mainMenu li ul li.sep { width: 220px; height: 1px; padding: 0; margin: 0; line-height: 1;}
-
-
